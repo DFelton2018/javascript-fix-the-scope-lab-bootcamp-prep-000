@@ -2,6 +2,8 @@ var animal = 'dog';
 const two = 2;
 
 function myAnimal() {
+  var innerVariable = 'dog';
+  
   return animal;
   
 }
