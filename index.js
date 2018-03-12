@@ -4,6 +4,9 @@ const two = 2;
 function myAnimal() {
   var innerVariable = 'dog';
   
+  return function innerScope() {
+    var inaccessible = animal;
+
   return animal;
   
 }
