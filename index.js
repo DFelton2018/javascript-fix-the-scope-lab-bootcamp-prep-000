@@ -1,18 +1,15 @@
-var animal = 'cat';
+var animal = 'dog';
 const two = 2;
 
 function myAnimal() {
-  var innerVariable = 'dog';
+  return animal;
   
-  return function innerScope() {
-    var inaccessible = animal;
-
-  return innerVariable;
-  };
 }
 
 function yourAnimal() {
+  var animal = 'cat';
   return animal;
+  
 }
 
 function add2(n) {
