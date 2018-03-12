@@ -1,4 +1,4 @@
-var animal = 'dog';
+var animal = 'cat';
 const two = 2;
 
 function myAnimal() {
@@ -8,7 +8,7 @@ function myAnimal() {
     var inaccessible = animal;
 
   return innerVariable;
-  }
+  };
 }
 
 function yourAnimal() {
