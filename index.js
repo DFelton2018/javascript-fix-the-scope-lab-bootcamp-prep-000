@@ -7,8 +7,8 @@ function myAnimal() {
   return function innerScope() {
     var inaccessible = animal;
 
-  return animal;
-  
+  return innerVariable;
+  }
 }
 
 function yourAnimal() {
